@@ -39,41 +39,37 @@
             color: rgb(0, 132, 255);
         }
 
-        .use-case-container , 
-        .algorithm-container, 
-        .stack-container{
-            width : 60%;
-            margin : 40px auto;
-            background-color: rgb(245, 245, 245);
-            box-shadow: 0 0 10px 10px rgb(236, 236, 236);
-            padding : 50px;
+        .about{
+            display : flex;
+            justify-content: center;
+            margin-top : 60px;
         }
 
-        .use-case-container > h1 , 
-        .algorithm-container > h1, 
-        .stack-container > h1{
+        
+
+        .about-text{
+            padding: 0 80px 80px 80px;
+            width : 50%;
+        }
+        .about > img{
+            width : 30%;
+            max-height : 400px;
+        }
+
+        .about-text > h1{
             font-size : 50px;
-            font-weight : 600;
-            margin : 30px;
+            font-weight: 600;
+            margin-bottom : 20px;
         }
-
-        .use-case-container > ul > li{
+        .about-text > h3{
             font-size : 20px;
-            font-weight : 400;
-        }
+            line-height : 30px;
 
-        .algorithm-container > h3{
-            font-size : 22px;
-            line-height : 40px;
         }
-
-        .stack-container > h3{
-            font-size : 24px;
-        }
-
-        .stack-container > h4{
-            font-size : 22px;
-            margin-left : 30px;
+        .about-text > h4{
+            padding-left : 20px;
+            font-size : 18px;
+            line-height : 20px;
         }
 
     </style>
@@ -88,26 +84,35 @@
         <a href = "http://localhost:5000/topgainerslosers">Top Gainers/ Losers</a>
         <a href = "http://localhost:5000/allcomodity">All Comodities</a>
     </div>
-    <div class="use-case-container">
-        <h1>Use Case</h1>
-        <ul>
-            <li>The Major use case is implied for the farmers of the country for helping them to take the crusial step
-                in determining which crop to yeild so as to gain maximum income.</li>
-            <li>The government can track and analyze potential demand and supply accros all the crop yeilds and can help
-                in decisive tasks.</li>
-            <li>The commodity exchanges can determine probable crops for investing</li>
-        </ul>
+   
+   
+    <div class = "about">
+        <div class="about-text">
+            <h1>Use Case</h1>
+            <h3>The Major use case is implied for the farmers of the country for helping them to take the crusial step
+                in determining which crop to yeild so as to gain maximum income.</h3>
+            <h3>The government can track and analyze potential demand and supply accros all the crop yeilds and can help
+                in decisive tasks.</h3>
+            <h3>The commodity exchanges can determine probable crops for investing</h3>
+        </div>
+        <img src = "../static/images/img1.jpeg">
     </div>
 
-    <div class="algorithm-container">
-        <h1>Gausian Naive Baise Algoritm</h1>
+    <div class = "about">
+
+        <img src = "../static/images/img2.png">
+    <div class="about-text">
+        <h1>Gausian Naive Baise Algorithm</h1>
         <h3>Gausian navie baise algorithm is based on the contemparay naive baise's probabilistic algorithm.In Gaussian
             Naive Bayes, continuous values associated with each feature are assumed to be distributed according to a
             Gaussian distribution. A Gaussian distribution is also called Normal distribution. When plotted, it gives a
             bell shaped curve which is symmetric about the mean of the feature values </h3>
     </div>
 
-    <div class="stack-container">
+    </div>
+
+    <div class = "about">
+    <div class="about-text">
         <h1> Tech Stack</h1>
             <h3>Frontend</h3>
             <h4>HTML</h4>
@@ -121,6 +126,9 @@
             <h3>Other</h3>
             <h4>Github</h4>
             <h4>Visual Studio Code</h4>
+    </div>
+    <img src = "../static/images/img3.png">
+
     </div>
 
 
